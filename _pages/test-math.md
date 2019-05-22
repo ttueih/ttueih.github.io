@@ -1,17 +1,14 @@
 ---
 title: Test math
-tags: 
-   - jekyll 
-   - test
-   - markdown
-   - mathjax
+tags: [jekyll, test, markdown, mathjax]
 date: 2019-05-20 15:06:26 +0100
-description: To see how math is rendered with Jekyll.
 ---
 
 There are two different ways to render \\( \LaTeX \\) on Jekyll, either using [**MathJaX**](https://www.mathjax.org) or [**KaTeX**](https://katex.org).
-MathJaX is more popular and more powerful compared to KaTeX which is a relatively light-weight library for math typesetting on web. 
+MathJaX is more popular and more powerful compared to KaTeX which is a relatively light-weight library. 
 However, KaTeX is way faster than MathJaX and is recommended for posts with the large number of mathematic content.
+
+<!--description-->
 
 It is possible to integrate KaTeX into Jekyll using either a plugin [jekyll-katex](https://github.com/linjer/jekyll-katex)
 or [replace MathJaX tag on-the-fly](https://xuc.me/blog/katex-and-jekyll/).
